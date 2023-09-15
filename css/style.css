@@ -672,6 +672,7 @@ span {
     }
 
     .navbar {
+        display: none;
         position: absolute;
         top: 100%;
         left: 0;
@@ -684,6 +685,7 @@ span {
     }
 
     .navbar.active {
+        display: block;
         left: 0;
         transition-delay: 0s;
     }
