@@ -8,10 +8,18 @@
     <title>Ferhat Telman</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skills.css">
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -128,105 +136,144 @@
     
     <section class="skills" id="skills">
         <h2 class="heading">My <span>Skills</span></h2>
-        <div class="slider">
-            <div class="item">
-                <h1>Slide 1</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias recusandae repellendus, obcaecati id hic aliquam cum sapiente quos labore deserunt asperiores amet eum illum esse quibusdam corporis ad, voluptates ullam eos nemo aliquid eius voluptatem quo. Minus, quaerat omnis!
-            </div>
-            <div class="item">
-                <h1>Slide 2</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias recusandae repellendus, obcaecati id hic aliquam cum sapiente quos labore deserunt asperiores amet eum illum esse quibusdam corporis ad, voluptates ullam eos nemo aliquid eius voluptatem quo. Minus, quaerat omnis!
-            </div>
-            <div class="item">
-                <h1>Slide 3</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias recusandae repellendus, obcaecati id hic aliquam cum sapiente quos labore deserunt asperiores amet eum illum esse quibusdam corporis ad, voluptates ullam eos nemo aliquid eius voluptatem quo. Minus, quaerat omnis!
-            </div>
-            <div class="item">
-                <h1>Slide 4</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias recusandae repellendus, obcaecati id hic aliquam cum sapiente quos labore deserunt asperiores amet eum illum esse quibusdam corporis ad, voluptates ullam eos nemo aliquid eius voluptatem quo. Minus, quaerat omnis!
-            </div>
-            <div class="item">
-                <h1>Slide 5</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias recusandae repellendus, obcaecati id hic aliquam cum sapiente quos labore deserunt asperiores amet eum illum esse quibusdam corporis ad, voluptates ullam eos nemo aliquid eius voluptatem quo. Minus, quaerat omnis!
-            </div>
-            <div class="item">
-                <h1>Slide 6</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias recusandae repellendus, obcaecati id hic aliquam cum sapiente quos labore deserunt asperiores amet eum illum esse quibusdam corporis ad, voluptates ullam eos nemo aliquid eius voluptatem quo. Minus, quaerat omnis!
-            </div>
-            <div class="item">
-                <h1>Slide 7</h1>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia molestias recusandae repellendus, obcaecati id hic aliquam cum sapiente quos labore deserunt asperiores amet eum illum esse quibusdam corporis ad, voluptates ullam eos nemo aliquid eius voluptatem quo. Minus, quaerat omnis!
-            </div>
-            <button id="next">></button>
-            <button id="prev"><</button>  
-        </div>
-          <!-- <div class="skills-row">
-            <div class="skills-column">
-                <h3 class="title">Coding Skills</h3>
+        <div class="card__container swiper">
+            <div class="card__content">
+               <div class="swiper-wrapper">
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="images/avatar-1.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Kell Dawx</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="images/avatar-2.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Lotw Fox</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="images/avatar-3.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Sara Mit</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="images/avatar-4.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Jenny Wert</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
 
-                <div class="skills-box">
-                    <div class="skills-content">
-                        <div class="progress">
-                            <h3>Html&CSS <span>100%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="images/avatar-5.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Lexa Kin</h3>
+                        <p class="card__description">
+                           Passionate about development and design, 
+                           I carry out projects at the request of users.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
 
-                        <div class="progress">
-                            <h3>JavaScript <span>80%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>React <span>60%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>C++ <span>70%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-                        
-                        <div class="progress">
-                            <h3>C# <span>70%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>SQL <span>50%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>Python <span>30%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
+                  <article class="card__article swiper-slide">
+                    <div class="card__image">
+                       <img src="images/avatar-6.png" alt="image" class="card__img">
+                       <div class="card__shadow"></div>
                     </div>
-                </div>
-            </div>
-
-            <div class="skills-column">
-                <h3 class="title">Professional Skills</h3>
-
-                <div class="skills-box">
-                    <div class="skills-content">
-                        <div class="progress">
-                            <h3>Web Design <span>50%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>Frontend Developer <span>40%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
-
-                        <div class="progress">
-                            <h3>Backend Developer <span>50%</span></h3>
-                            <div class="bar"><span></span></div>
-                        </div>
+     
+                    <div class="card__data">
+                       <h3 class="card__name">Lexa Kin</h3>
+                       <p class="card__description">
+                          Passionate about development and design, 
+                          I carry out projects at the request of users.
+                       </p>
+     
+                       <a href="#" class="card__button">View More</a>
                     </div>
-                </div>
+                 </article>
+
+                 
+                 <article class="card__article swiper-slide">
+                    <div class="card__image">
+                       <img src="images/avatar-7.png" alt="image" class="card__img">
+                       <div class="card__shadow"></div>
+                    </div>
+     
+                    <div class="card__data">
+                       <h3 class="card__name">Lexa Kin</h3>
+                       <p class="card__description">
+                          Passionate about development and design, 
+                          I carry out projects at the request of users.
+                       </p>
+     
+                       <a href="#" class="card__button">View More</a>
+                    </div>
+                 </article>
+               </div>
             </div>
-        </div>-->
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next">
+               <i class="ri-arrow-right-s-line"></i>
+            </div>
+            
+            <div class="swiper-button-prev">
+               <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+         </div>
+          
     </section> 
 
     <!-- contact section design -->
@@ -282,6 +329,11 @@
     
     <script src="js/app.js"></script>
     <script src="js/script.js"></script>
+     <!--=============== SWIPER JS ===============-->
+     <script src="js/swiper-bundle.min.js"></script>
+
+     <!--=============== MAIN JS ===============-->
+     <script src="js/main.js"></script>
 </body>
 
 </html>
