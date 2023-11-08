@@ -78,7 +78,7 @@ img {
   padding: 1.5rem 2rem;
   border-radius: 1rem;
   text-align: center;
-  position: relative;
+  /* position: relative; */
   z-index: 10;
 }
 
@@ -103,13 +103,16 @@ img {
 }
 
 .card__name {
-  font-size: var(--h2-font-size);
+  font-size: large;
   color: var(--seconds-color);
-  margin-bottom: .75rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .card__description {
   font-weight: 500;
+  font-size: small;
   margin-bottom: 1.75rem;
 }
 
